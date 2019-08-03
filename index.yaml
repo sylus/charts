@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   fluentd-operator:
   - appVersion: 0.3.1
-    created: "2019-08-03T20:04:42.157433864Z"
+    created: "2019-08-03T20:07:07.567262327Z"
     description: Distribution of Fluentd as K8S daemonset
-    digest: de73dbaffa23f7ab4a41267e67dad4a57148c2373b7fce5a5d0bf9e9fc0a1ba0
+    digest: 0ca6c21676b411f1c5a97b59d264a481503cbeb84b132280654332bd1e26edcf
     engine: gotpl
     home: https://github.com/vmware/kube-fluentd-operator
     keywords:
@@ -21,4 +21,57 @@ entries:
     urls:
     - https://sylus.github.io/charts/fluentd-operator-0.0.2.tgz
     version: 0.0.2
-generated: "2019-08-03T20:04:42.156580985Z"
+  logstash:
+  - apiVersion: v1
+    appVersion: 7.2.0
+    created: "2019-08-03T20:07:07.569083811Z"
+    description: Logstash is an open source, server-side data processing pipeline
+    digest: e9dbab691e0b1481b597cc7789bf5749a90030c9250239296658950d9c88bcaa
+    home: https://www.elastic.co/products/logstash
+    icon: https://www.elastic.co/assets/blt86e4472872eed314/logo-elastic-logstash-lt.svg
+    maintainers:
+    - email: zachary.seguin@canada.ca
+      name: zachary.seguin
+    name: logstash
+    sources:
+    - https://www.docker.elastic.co
+    - https://www.elastic.co/guide/en/logstash/current/index.html
+    urls:
+    - https://sylus.github.io/charts/logstash-2.1.0.tgz
+    version: 2.1.0
+  prometheus-operator:
+  - apiVersion: v1
+    appVersion: 0.30.0
+    created: "2019-08-03T20:07:07.587182297Z"
+    description: An extended Helm chart derived from official Prometheus Operator
+      chart.
+    digest: 4133484dd1738c7de912464bf4e861b64fc3662aa18fee52dd82cf43e6b4a787
+    engine: gotpl
+    home: https://coreos.com/operators/prometheus/docs/latest/
+    maintainers:
+    - email: william.hearn@canada.ca
+      name: sylus
+    name: prometheus-operator
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://sylus.github.io/charts/prometheus-operator-0.0.2.tgz
+    version: 0.0.2
+  velero:
+  - apiVersion: v1
+    appVersion: 0.11.0
+    created: "2019-08-03T20:07:07.588669439Z"
+    description: An extended Helm chart derived from official Velero chart.
+    digest: e1db8d8b2e045180c3d8ef2f61bbad08674c7b6e0d88d13cb85fd62823e73010
+    engine: gotpl
+    home: https://heptio.com/products/#heptio-velero
+    maintainers:
+    - email: william.hearn@canada.ca
+      name: sylus
+    name: velero
+    sources:
+    - https://github.com/heptio/velero
+    urls:
+    - https://sylus.github.io/charts/velero-0.0.2.tgz
+    version: 0.0.2
+generated: "2019-08-03T20:07:07.565819235Z"
