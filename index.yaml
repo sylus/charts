@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   fluentd-operator:
   - appVersion: 0.3.1
-    created: "2019-08-03T20:07:07.567262327Z"
+    created: "2019-08-03T20:31:44.483625247Z"
     description: Distribution of Fluentd as K8S daemonset
-    digest: 0ca6c21676b411f1c5a97b59d264a481503cbeb84b132280654332bd1e26edcf
+    digest: e5eb345254e538d52429c904e809289da60b9f4b2e0963bbf4e98c9d439572ca
     engine: gotpl
     home: https://github.com/vmware/kube-fluentd-operator
     keywords:
@@ -24,9 +24,9 @@ entries:
   logstash:
   - apiVersion: v1
     appVersion: 7.2.0
-    created: "2019-08-03T20:07:07.569083811Z"
+    created: "2019-08-03T20:31:44.490433236Z"
     description: Logstash is an open source, server-side data processing pipeline
-    digest: e9dbab691e0b1481b597cc7789bf5749a90030c9250239296658950d9c88bcaa
+    digest: 57407312e217054e28cdc8e26c4326d8f905c13f5fdcfc23c4bedf9655ccf360
     home: https://www.elastic.co/products/logstash
     icon: https://www.elastic.co/assets/blt86e4472872eed314/logo-elastic-logstash-lt.svg
     maintainers:
@@ -42,10 +42,10 @@ entries:
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.30.0
-    created: "2019-08-03T20:07:07.587182297Z"
+    created: "2019-08-03T20:31:44.529903852Z"
     description: An extended Helm chart derived from official Prometheus Operator
       chart.
-    digest: 4133484dd1738c7de912464bf4e861b64fc3662aa18fee52dd82cf43e6b4a787
+    digest: 7cc00934534306a8a6db7efe17213cd3d5e4741812a5090ec4c8de84fd470eca
     engine: gotpl
     home: https://coreos.com/operators/prometheus/docs/latest/
     maintainers:
@@ -60,9 +60,9 @@ entries:
   velero:
   - apiVersion: v1
     appVersion: 0.11.0
-    created: "2019-08-03T20:07:07.588669439Z"
+    created: "2019-08-03T20:31:44.531585936Z"
     description: An extended Helm chart derived from official Velero chart.
-    digest: e1db8d8b2e045180c3d8ef2f61bbad08674c7b6e0d88d13cb85fd62823e73010
+    digest: d40b1452602e1ffbbb09fa2f21ea92749a05d7f04ca78585ec7f601fc92b0163
     engine: gotpl
     home: https://heptio.com/products/#heptio-velero
     maintainers:
@@ -74,4 +74,4 @@ entries:
     urls:
     - https://sylus.github.io/charts/velero-0.0.2.tgz
     version: 0.0.2
-generated: "2019-08-03T20:07:07.565819235Z"
+generated: "2019-08-03T20:31:44.482848925Z"
