@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  fluentd-operator:
+  - appVersion: 0.3.1
+    created: "2019-08-03T20:04:42.157433864Z"
+    description: Distribution of Fluentd as K8S daemonset
+    digest: de73dbaffa23f7ab4a41267e67dad4a57148c2373b7fce5a5d0bf9e9fc0a1ba0
+    engine: gotpl
+    home: https://github.com/vmware/kube-fluentd-operator
+    keywords:
+    - fluentd
+    - operator
+    maintainers:
+    - email: william.hearn@canada.ca
+      name: sylus
+    - email: zachary.seguin@canada.ca
+      name: Zachary Seguin
+    name: fluentd-operator
+    sources:
+    - https://github.com/vmware/kube-fluentd-operator
+    urls:
+    - https://sylus.github.io/charts/fluentd-operator-0.0.2.tgz
+    version: 0.0.2
+generated: "2019-08-03T20:04:42.156580985Z"
